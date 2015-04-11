@@ -1,0 +1,22 @@
+{
+  "name": "flux-cart-example",
+  "version": "1.0.0",
+  "description": "shopping cart popup thing in flux",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -p --progress",
+    "watch": "BUILD_DEV=true ./node_modules/.bin/webpack --watch --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kelle Connolly <kelle.connolly@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^4.7.16",
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.2.0",
+    "flux": "^2.0.1",
+    "lodash": "^3.6.0",
+    "react": "^0.13.1",
+    "webpack": "^1.8.4"
+  }
+}
